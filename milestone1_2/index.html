@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        
+        <img
+        src="profile photo.png"
+        alt="Profile-picture"
+        class="Profile-picture"
+      />
+      <section id="Professional Summary">
+        <h3 >Professional Summary</h3>
+        <p style="text-align: justify;hyphens: auto;">
+          A dedicated professional with 8 years of banking experience and an
+          MBA in Marketing. Currently working as a government school teacher,
+          transitioning into the field of Artificial Intelligence with a focus
+          on UI design. Skilled in managing classrooms, mentoring students,
+          and providing exceptional customer service in banking.
+        </p>
+      </section>
+        <h1>Sanjeeda Kanwal</h1>
+        <p>Government School Teacher & MBA in Marketing</p>
+
+        <div class="section">
+            <button class="toggle-btn" data-section="personal">Personal Info</button>
+            <div class="content" id="personal">
+                <p><strong>CNIC:</strong> 42201-0732612-0</p>
+                <p><strong>Phone:</strong> 0324-2198505</p>
+                <p><strong>PRC:</strong> Khairpur, Sindh</p>
+                <p><strong>Email:</strong><a href="mailto:sanjeedakanwal45@gmail.com">
+                    sanjeedakanwal45@gmail.com
+                </a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <button class="toggle-btn" data-section="experience">Experience</button>
+            <div class="content" id="experience">
+                <p><strong>Government School Teacher</strong></p>
+                <p>Teaching since 2022</p>
+                <p><strong>Banking Professional</strong></p>
+                <p>8 years of experience in banking</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <button class="toggle-btn" data-section="education">Education</button>
+            <div class="content" id="education">
+                <p><strong>B.Ed:</strong> Shah Abdul Latif University, 2023</p>
+                <p><strong>MBA (Marketing):</strong> Federal Urdu University, 2012</p>
+                <p><strong>B.Com:</strong> Karachi University, 2008</p>
+                <p><strong>Intermediate (Pre-Medical):</strong> Fazaia College, 2005</p>
+                <p><strong>Matriculation:</strong> PIA Model Secondary School, 2003</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <button class="toggle-btn" data-section="skills">Skills</button>
+            <div class="content" id="skills">
+                <p>Marketing & Business Strategies</p>
+                <p>Banking Operations</p>
+                <p>Teaching & Classroom Management</p>
+                <p>UI Design & Prototyping</p>
+                <p>Artificial Intelligence Concepts</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
